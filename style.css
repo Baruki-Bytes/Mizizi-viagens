@@ -170,6 +170,50 @@
     border-radius: 20px;
 }
 
+#banner4{
+  height: 862px;
+  width: 100%;
+  gap: 60px;
+  flex-direction: column;
+}
+
+#banner5{
+  height: 350px;
+  width: 1129px;
+  gap: 60px;
+}
+
+#banner5-in{
+  height: 350px;
+  width: 1129px;
+  gap: 60px;
+  flex-direction:row-reverse;
+  
+}
+
+#spanos {
+  font-size: 20px;
+  color: var(--azul3);
+  font-family: 'Kameron', serif;
+  font-weight: var(--semibold);
+  margin: 10px;
+}
+
+#spanoss {
+  font-size: 20px;
+  color: var(--azul3);
+  font-family: 'Kameron', serif;
+  font-weight: var(--semibold);
+  margin: 10px;
+}
+
+#rodape{
+  height: 221px;
+  width: 100%;
+  gap: 60px;
+  background-color: #000b1f;
+}
+
 #separador{
     height: 100px;
     width: 100%;
@@ -226,12 +270,25 @@
     width: 192px;
     box-shadow: 0px 4px 4px #00000000;
 }
+
+#imagem5{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 4px 4px #00000000;
+}
+
+#imagemb1{
+  height: 348px;
+  width: 963px;
+  box-shadow: 0px 4px 4px #00000000;
+}
+
     /* imagem fim*/
 
     /* Banner 1*/
 .banner1 {
-    height: 348px;
-    width: 963px;
+    height: 337px;
+    width: 941px;
     border-radius: 20px;
 }
 
