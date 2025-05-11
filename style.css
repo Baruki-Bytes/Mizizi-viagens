@@ -1,6 +1,7 @@
 :root {
     --azul1: #B9E5ED;
     --azul2: #4E8EA6;
+    --azul2_5: #3c7597;
     --azul3: #0a2861;
     --cinza1: #5b719c;
     --cinza2: #414f6d65;
@@ -73,11 +74,28 @@
   .pesquisa span {
     font-size: 25px;
     user-select: none;
-    color: var(--azul2);
+    color: var(--azul2_5);
     font-family: 'Kameron', serif;
     font-weight: var(--semibold);
     margin: 10px;
   }
+
+  /* Icones */
+
+  #lupa {
+    font-size: 25px;
+    color: var(--azul2_5);
+    user-select: none;
+  }
+
+  #iconsH {
+    font-size: 35px;
+    color: var(--azul2_5);
+    user-select: none;
+  }
+
+  /* Icones fim*/
+
 
   /* Header fim*/
 
