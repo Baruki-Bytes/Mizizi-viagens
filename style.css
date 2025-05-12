@@ -3,6 +3,7 @@
     --azul2: #4E8EA6;
     --azul2_5: #3c7597;
     --azul3: #0a2861;
+    --azul4: #0367A6;
     --cinza1: #5b719c;
     --cinza2: #414f6d65;
     --fundo: #E6FFFF;
@@ -313,3 +314,75 @@
     /* Banner 1 fim*/
 
   /* Body fim*/
+
+
+    /* pagina viagens */
+
+#conteudo1{
+margin-top: 15px;
+height: auto;
+width: 100%;
+text-align: center;
+flex-direction: column;
+
+}
+
+#conteudo1 p{
+  margin-top: 30px;
+  font-size: 40px;
+  color: var(--azul4);
+  font-family: 'Kameron', serif;
+  font-weight: var(--semibold);
+    letter-spacing: 1px;
+  }
+
+#conteudo2{
+  margin-top: 15px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  gap: 20px;
+  }
+
+  #conteudo3{ 
+    width: 325px;
+    height: 672px;
+    text-align: center;
+    background-color: var(--azul2);
+    margin-top: -285px;
+    border-radius: 10px;
+    }
+
+    #conteudo4{
+      margin-top: 15px;
+      height: auto;
+      width: 1100px;
+      height: 1000px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      } 
+
+      #conteudo5_1{
+        margin-top: 15px;
+        display: flex;
+        width: 1000px;
+        height: 200px;
+        text-align: center;
+        background-color: var(--azul2);
+        border-radius: 10px;
+        }
+
+      #conteudo5{
+        display: flex;
+        margin-top: 30px;
+        width: 1000px;
+        height: 200px;
+        text-align: center;
+        background-color: var(--azul2);
+        border-radius: 10px;
+        }
+    
