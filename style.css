@@ -4,6 +4,9 @@
     --azul2_5: #3c7597;
     --azul3: #0a2861;
     --azul4: #0367A6;
+    --azul5: #67bce6;
+    --azul6: #000b1f;
+
     --cinza1: #5b719c;
     --cinza2: #414f6d65;
     --fundo: #E6FFFF;
@@ -358,7 +361,7 @@ flex-direction: column;
       margin-top: 15px;
       height: auto;
       width: 1100px;
-      height: 1000px;
+      height: auto;
       text-align: center;
       display: flex;
       justify-content: center;
@@ -372,8 +375,11 @@ flex-direction: column;
         width: 1000px;
         height: 200px;
         text-align: center;
-        background-color: var(--azul2);
+        background-color: var(--azul5);
         border-radius: 10px;
+        display: flex;
+        position: relative;
+        border: var(--azul6) solid 2px;
         }
 
       #conteudo5{
@@ -382,7 +388,21 @@ flex-direction: column;
         width: 1000px;
         height: 200px;
         text-align: center;
-        background-color: var(--azul2);
+        background-color: var(--azul5);
         border-radius: 10px;
+        display: flex;
+        position: relative;
+        border: var(--azul6) solid 2px;
         }
+
+    #counteudo5_dento{
+      width: 297px;
+      height: 197px;
+      background-color: var(--azul3);
+      left: 700px;
+      position: relative;
+      border-radius: 10px;
+      border-left: var(--azul2) dashed 4px;
+
+    }
     
