@@ -24,6 +24,11 @@ body{
     background-color: var(--fundo);
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
 .banner-usu{
     display: flex;
     position: relative;
@@ -32,7 +37,7 @@ body{
     opacity: 70%;
     top: 6vh;
 }
-/* ft de perfil */
+/* / ft de perfil / */
 .usuario-ft{
     position: relative;
     display: flex;
@@ -52,10 +57,10 @@ body{
     transition: transform 0.4s ease;
 }
 
-/* conteiner geral */
+/* / conteiner geral / */
 .conteiner-geral{
     background-color: rgb(185, 229, 237) ;
-    height: 130vh;
+    height: 230vh;
     width: 48vw;
     position: relative;
     left: 52vh;
@@ -63,7 +68,7 @@ body{
     border-radius: 10px;
 }
  
-/* textos do extremo cima */
+/* / textos do extremo cima / */
 .text-inf{
     display: flex;
     color: var(--azul3);
@@ -72,7 +77,7 @@ body{
     padding: 20px;
 }
 
-/* usuario name */
+/* / usuario name / */
 .name-perfil{
     display: flex;
     position: relative;
@@ -98,7 +103,7 @@ body{
     transition: transform 0.3 ease;
 }
 
-/* info recentes */
+/* / info recentes / */
 
 .conteiner-info-recent{
     position: relative;
@@ -114,7 +119,7 @@ body{
     text-align: center;
 }
 
-/* fontes debaixo em geral */
+/* / fontes debaixo em geral / */
 .titulo{
     margin-bottom: 30px;
 }
@@ -123,13 +128,13 @@ body{
     font-size: 30px;
 }
 
-/* historiador q esta bugado */
+/* / historiador q esta bugado / */
 #nomen{
     margin-bottom: 20px;
 }
 
 
-/* separador */
+/* / separador / */
 
 .separador{
     position: relative;
@@ -139,7 +144,7 @@ body{
     top: 200px;
 }
 
-/* info pessoais */
+/* / info pessoais / */
 
 .text-info-pessoal{
     position: relative;
@@ -163,7 +168,7 @@ ul{
     list-style: none;
 }
 
-/* planos */
+/* / planos / */
 
 .plan-gold{
     position: relative;
@@ -179,4 +184,78 @@ ul{
     position: relative;
     left: 30px;
     margin-top: 5px;
+}
+
+/* redes sociais */
+
+.social-redes{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 20px;
+    top: 250px;
+    color: #0a2861;
+
+}
+
+.icons-social{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 30px;
+    position: relative;
+    top: 90px;
+    left: 9%;
+    font-size: 20px;
+
+}
+
+#icon-geral{
+    font-size: 35px;
+    padding: 10px;
+    transition: 400ms ease;
+}
+
+#icon-geral:hover{
+    color: white;
+    background-color: var(--azul3) ;
+    border-radius: 10px;
+    transform:scale(1.2), ;
+
+}
+
+#separador2{
+    top: 400px;
+}
+
+/* minhas fts */
+
+.minhas-fts{
+    position: relative;
+    top: 450px;
+    left: 20px;
+    color: #0a2861;
+    font-size: 25px;
+}
+
+.galeria{
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    top: 20px;
+}
+
+.ft-lgl{
+    margin: 10px;
+}
+
+#ft-mudar{
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 400ms ease;
+}
+
+#ft-mudar:hover{
+    transform: scale(1.1);
 }
