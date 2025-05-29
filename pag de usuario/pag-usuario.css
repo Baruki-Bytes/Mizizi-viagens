@@ -1,0 +1,182 @@
+:root {
+    --branco: #eafcff;
+    --azul1: #B9E5ED;
+    --azul2: #4E8EA6;
+    --azul2_trans: #4e8fa6ac;
+    --azul2_5: #3c7597;
+    --azul3: #0a2861;
+    --cinza1: #5b719c;
+    --cinza2: #414f6d65;
+    --cinza3: #2a3f6d79;
+    --verde: #43AD7C;
+    --fundo: #E6FFFF;
+
+    --semibold: 600;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+.banner-usu{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
+    top: 6vh;
+}
+/* ft de perfil */
+.usuario-ft{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 145px;
+    z-index: 2;
+}
+
+#ft-perfil{
+    border-radius: 200px;
+    border: 3px solid black;
+}
+
+#ft-perfil:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+/* conteiner geral */
+.conteiner-geral{
+    background-color: rgb(185, 229, 237) ;
+    height: 130vh;
+    width: 48vw;
+    position: relative;
+    left: 52vh;
+    bottom: 34vh;
+    border-radius: 10px;
+}
+ 
+/* textos do extremo cima */
+.text-inf{
+    display: flex;
+    color: var(--azul3);
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* usuario name */
+.name-perfil{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 120px;
+    align-items: first baseline;
+    gap: 10px;
+}
+
+#usu-name{
+    color: var(--azul3);
+}
+
+.add-usu{
+    background-color:#0a2861;
+    padding: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.add-usu:hover{
+    transform: scale(1.1);
+    transition: transform 0.3 ease;
+}
+
+/* info recentes */
+
+.conteiner-info-recent{
+    position: relative;
+    display: flex;
+    background-color: var(--azul3);
+    color: white;
+    left: 12vh;
+    border-radius: 10px;
+    top: 170px;
+    gap: 20px;
+    padding: 20px;
+    width: 700px;
+    text-align: center;
+}
+
+/* fontes debaixo em geral */
+.titulo{
+    margin-bottom: 30px;
+}
+
+#font-size{
+    font-size: 30px;
+}
+
+/* historiador q esta bugado */
+#nomen{
+    margin-bottom: 20px;
+}
+
+
+/* separador */
+
+.separador{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+}
+
+/* info pessoais */
+
+.text-info-pessoal{
+    position: relative;
+    color: var(--azul3);
+    top: 250px;
+    left: 20px;
+}
+
+ul{
+    left: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lista-info-pessoal{
+    list-style: none;
+}
+
+/* planos */
+
+.plan-gold{
+    position: relative;
+    left: 650px;
+    top: 130px;
+}
+
+#plan-title{
+    color: #0a2861;
+}
+
+.img-plan{
+    position: relative;
+    left: 30px;
+    margin-top: 5px;
+}
