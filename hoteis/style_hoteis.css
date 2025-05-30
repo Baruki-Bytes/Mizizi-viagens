@@ -1,0 +1,234 @@
+:root {
+    --azul1: #B9E5ED;
+    --azul2: #4E8EA6;
+    --azul2_5: #3c7597;
+    --azul3: #0a2861;
+    --azul4: #0367A6;
+    --azul5: #67bce6;
+    --azul6: #000b1f;
+
+    --cinza1: #5b719c;
+    --cinza2: #414f6d65;
+    --fundo: #E6FFFF;
+
+    --semibold: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--fundo);
+  }
+
+/* Header */
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul1);
+    height: 128px;
+    padding: 10px 20px;
+  }
+
+  .lula, .bolso {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo {
+    height: 97px;
+    width: 228px;
+    margin-left: 170px;
+  }
+
+  .icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    height: 50px;
+    width: 108px;
+    margin-right: 170px;
+    gap: 29px;
+    user-select: none;
+  }
+
+  .pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    height: 32px;
+    width: 310px;
+    background-color: var(--fundo);
+    border: 2px solid var(--azul2);
+    border-radius: 20px;
+  }
+
+  .pesquisa span {
+    font-size: 25px;
+    user-select: none;
+    color: var(--azul2_5);
+    font-family: 'Kameron', serif;
+    font-weight: var(--semibold);
+    margin: 10px;
+  }
+
+  /* Icones */
+
+  #lupa {
+    font-size: 25px;
+    color: var(--azul2_5);
+    user-select: none;
+  }
+
+  #iconsH {
+    font-size: 35px;
+    color: var(--azul2_5);
+    user-select: none;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul2);
+    height: 79px;
+    padding: 10px 20px;
+    user-select: none;
+}
+
+.icones-navbar {
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    width: 1151px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_hotel{
+    margin-top: 23px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul1);
+    padding: 25px;
+    margin-top: 74px;
+    margin-inline: 252px;
+    border-radius: 10px;
+    font-family: 'Kameron', serif;
+    font-weight: var(--semibold);
+    font-size: 20px;
+    text-align: center;
+}
+.pesquisar{
+    color: var(--azul2);
+    margin-right: 48px;
+}
+
+#search-bar{
+    padding-right: 48px;
+}
+
+#quantidade-bar{
+    padding-left: 48px;
+}
+
+.botões-search{
+  padding-left: 54px ;
+}
+
+#botõe{
+  padding: 11px;
+  padding-inline: 38px;
+  background-color: var(--azul2);
+  border-radius: 15px;
+  border: 0;
+  color: #fff;
+  font-family: 'Kameron';
+  font-size: 20px;
+  }
+
+  #limpar{
+  padding: 11px;
+  padding-inline: 38px;
+  margin-left: 24px;
+  background-color: #C91C1C;
+  border-radius: 15px;
+  border: 0;
+  color: #fff;
+  font-family: 'Kameron';
+  font-size: 20px;
+  }
+
+  .opções{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 74px;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Kameron';
+    margin-top: 35px;
+  }
+
+  .opção{
+    background-color: var(--azul2);
+    border-radius: 11px;
+  }
+
+  .informação{
+    margin-inline: 20px;
+    border: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: #95DFEA;
+    padding-left: 13px;
+  }
+
+  .informações{
+    margin-left: 20px;
+  }
+
+  .btn-opções{
+    background-color: #7DC9E5;
+    border: 0;
+    border-radius: 10px;
+    padding: 7px;
+    padding-inline: 36px;
+  }
+
+  #Sugestão{
+    color: #0367A6;
+    text-align: center;
+    font-family: 'Kameron';
+    margin-top: 121px;
+  }
+
+  .footer{
+    margin-top: 348px;
+    background-color: black;
+    color: white;
+  }
