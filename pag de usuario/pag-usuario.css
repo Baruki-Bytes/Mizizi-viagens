@@ -139,7 +139,7 @@ a{
     position: relative;
     opacity: 70%;
     top: 50px;
-    margin-left: 300px;;
+    margin-left: 30px;;
 }
 /* / ft de perfil / */
 .usuario-ft{
@@ -147,7 +147,6 @@ a{
     display: flexbox;
     justify-content: center;
     align-items: center;
-    left: 770px;
     bottom: 145px;
     z-index: 1;
     width: 300px;
@@ -169,7 +168,6 @@ a{
     height: 2300px;
     width: 900px;
     position: relative;
-    left: 475px;
     bottom: 325px;
     border-radius: 10px;
     justify-content: center;
@@ -376,4 +374,9 @@ ul{
   background-color: #000b1f;
   position: relative;
   bottom: 200px;
+}
+
+.consertar{
+    align-items: center;
+    justify-items: center;
 }
