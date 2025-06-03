@@ -139,17 +139,22 @@ a{
     position: relative;
     opacity: 70%;
     top: 50px;
-    margin-left: 30px;;
+    margin-left: 15px;
 }
+
+#img-poggers{
+    height: 55vh;
+    width: 0 auto;
+}
+
 /* / ft de perfil / */
 .usuario-ft{
     position: relative;
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     bottom: 145px;
     z-index: 1;
-    width: 300px;
 }
 
 #ft-perfil{
