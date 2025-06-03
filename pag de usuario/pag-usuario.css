@@ -136,12 +136,10 @@ a{
   /* começo da pag */
 
 .banner-usu{
-    display: flexbox;
     position: relative;
     opacity: 70%;
     top: 50px;
-    left: 350px;
-    width: 400px;
+    margin-left: 300px;;
 }
 /* / ft de perfil / */
 .usuario-ft{
@@ -227,8 +225,6 @@ a{
     padding: 20px;
     width: 700px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 /* / fontes debaixo em geral / */
