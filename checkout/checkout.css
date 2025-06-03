@@ -99,7 +99,8 @@
 
 .img-steam{
     position: relative;
-    margin-left: 225px; 
+    margin-left: 225px;
+    margin-top: 20px;
 }
 
 #banner-steam{
@@ -150,6 +151,7 @@
     position: relative;
     left: 1220px;
     bottom: 740px;
+    width: 200px;
 }
 
 .block1{
