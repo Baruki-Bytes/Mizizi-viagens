@@ -20,6 +20,9 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -90,18 +93,27 @@
 
 /* titulo e pag steam */
 
+section{
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+
 .text-check{
     display: flex;
     gap: 5px;
     margin-top: 30px;
-    margin-left: 225px;
+    margin-right: 1200px;
 }
 
 .img-steam{
     position: relative;
-    margin-left: 225px;
+    margin-right: 490px;
     margin-top: 20px;
 }
+
+
 
 #banner-steam{
     border-radius: 10px;
@@ -147,11 +159,17 @@
 }
 
 /* block 1 */
+
+.conteiner-block{
+    position: relative;
+    width: 500px;
+    margin-left: 500px;
+    bottom: 715px;
+}
+
 .title-block1{
     position: relative;
-    left: 1220px;
-    bottom: 740px;
-    width: 200px;
+    top: -30px;
 }
 
 .block1{
@@ -159,17 +177,77 @@
     height: 600px;
     width: 500px;
     position: relative;
-    left: 1220px;
-    bottom: 735px;
     border-radius: 10px;
 }
 
-.sub-block{
-    background-color: #4E8EA6;
-    height: 200px;
-    width: 400px;
-    position: relative;
-    left: 10%;
-    top: 300px;
-    border-radius: 10px;
+
+.conteiner-block{
+    width: 100%;
 }
+
+/* separador */
+
+.icon-separador-poggers{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    bottom: 16px;
+    right: 20px;
+    height: 0px;
+    width: 200px;
+    color: #0a2861;
+}
+
+.linha-1{
+    border: 1px solid #0a2861 ;
+}
+
+#linha1{
+    left: 100px;
+    top: 5px;
+    width: 200px;
+    position: relative;
+}
+
+#linha2{
+    width: 100px;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+
+#linha3{
+    width: 120px;
+    position: relative;
+    top: -3px;
+}
+
+.icon-aviao{
+    font-size:30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.text-viagens{
+    color: #0a2861;
+    margin-left: 10px;
+}
+
+/* subblock text */
+
+#Destino{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.seus-destino{
+    color: var(--azul3);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+

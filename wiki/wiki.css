@@ -1,0 +1,161 @@
+:root {
+    --azul1: #b9e5ed;
+    --azul2: #4e8ea6;
+    --azul2_5: #3c7597;
+    --azul3: #0a2861;
+    --azul4: #0367a6;
+    --azul5: #67bce6;
+    --azul6: #000b1f;
+  
+    --cinza1: #5b719c;
+    --cinza2: #414f6d65;
+    --fundo: #e6ffff;
+  
+    --semibold: 600;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--fundo);
+  }
+  
+  /* Header */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul1);
+    height: 128px;
+    padding: 10px 20px;
+  }
+  
+  .lula,
+  .bolso {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    height: 97px;
+    width: 228px;
+    margin-left: 170px;
+  }
+  
+  .icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    height: 50px;
+    width: 108px;
+    margin-right: 170px;
+    gap: 29px;
+    user-select: none;
+  }
+  
+  .pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    height: 32px;
+    width: 310px;
+    background-color: var(--fundo);
+    border: 2px solid var(--azul2);
+    border-radius: 20px;
+  }
+  
+  .pesquisa span {
+    font-size: 25px;
+    user-select: none;
+    color: var(--azul2_5);
+    font-family: "Kameron", serif;
+    font-weight: var(--semibold);
+    margin: 10px;
+  }
+  
+  /* Icones */
+  
+  #lupa {
+    font-size: 25px;
+    color: var(--azul2_5);
+    user-select: none;
+  }
+  
+  #iconsH {
+    font-size: 35px;
+    color: var(--azul2_5);
+    user-select: none;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul2);
+    height: 79px;
+    padding: 10px 20px;
+    user-select: none;
+  }
+  
+  .icones-navbar {
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    width: 1151px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo_wiki {
+    margin-top: 44px;
+  }
+
+  .naosei{
+    display: flex;
+    padding-inline: 107px;
+  }
+
+  .slaporenqt h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 71px;
+    color: #0367A6;
+  } 
+
+  .slaporenqt p{
+    font-size: 36px;
+  } 
+
+  .eita{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eita img{
+    width: 412px;
+    height: 306px;
+    margin-bottom: 41px;
+  }
+
+  .sadjhidasujk{
+    width: 257px;
+    align-self: center;
+  }
