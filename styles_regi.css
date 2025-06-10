@@ -30,7 +30,7 @@ a {
   .back-img {
     height: 100vh;
     width: 100%;
-    background-image: url('./image/bg/praia.png');
+    background-image: url('image/bg/praia.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,7 +39,7 @@ a {
 
   .meio {
     position: absolute;
-    height: 511px;
+    height: 600px;
     width: 820px;
     top: 50%;
     left: 50%;
@@ -53,7 +53,7 @@ a {
 }
 
 .meiodomeio {
-    height: 511px;
+    height: 600px;
     width: 308px;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ a {
 }
 
 .direitadomeio {
-    height: 511px;
+    height: 600px;
     width: 279px;
     background-color: var(--azul1);
     border-radius: 10px;
@@ -116,8 +116,8 @@ a {
   }
 
   #login{
-    margin-top: 32px;
-    margin-bottom: 46px;
+    margin-top: 0px;
+    margin-bottom: 26px;
   }
 
   #testinho, #testinho2{
@@ -135,7 +135,7 @@ a {
 
 
 #mizizi{
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 15px;
     color: var(--branco);
     font-family: 'Kameron', serif;
