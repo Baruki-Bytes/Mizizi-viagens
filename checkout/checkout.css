@@ -22,7 +22,10 @@
 
 body{
     overflow-x: hidden;
+    height: 5000px;
 }
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -93,26 +96,16 @@ body{
 
 /* titulo e pag steam */
 
-section{
-    align-items: center;
-    justify-items: center;
-    margin: 0 auto;
-}
+
 
 
 .text-check{
     display: flex;
-    gap: 5px;
-    margin-top: 30px;
-    margin-right: 1200px;
-}
-
-.img-steam{
     position: relative;
-    margin-right: 490px;
-    margin-top: 20px;
+    bottom: 30px;
+    left: 230px;
+    gap: 5px;
 }
-
 
 
 #banner-steam{
@@ -161,10 +154,12 @@ section{
 /* block 1 */
 
 .conteiner-block{
-    position: relative;
-    width: 500px;
-    margin-left: 500px;
-    bottom: 715px;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 90px;
+    margin-right: 100px;
+    justify-content: center;
 }
 
 .title-block1{
@@ -178,11 +173,6 @@ section{
     width: 500px;
     position: relative;
     border-radius: 10px;
-}
-
-
-.conteiner-block{
-    width: 100%;
 }
 
 /* separador */
@@ -335,14 +325,21 @@ input {
   transition: all 0.3s ease;
 }
 
+/* wiki pages kkkkk */
+
+.wiki-pai{
+    justify-content: center;
+}
+
 .wiki-link{
     background-color: #4E8EA6;
-    height: 50px;
+    height: 58px;
     width: 900px;
+    align-items: center;
     position: relative;
-    top: 150px;
-    right: 750px;
     display: flex;
+    left: 266px;
+    top:35px;
     text-align: center;
     border-radius: 10px;
     transition: 400ms ease;
@@ -354,7 +351,40 @@ input {
     transform: scale(1.1) ;
 }
 
+.wiki-text{
+    display: flex;
+    align-items: center;
+}
 
+.redi-icon, #wiki-icon {
+    font-size: 30px;
+    padding: 3px;
+}
 
+#text-solt{
+    color: #0a2861;
+    position: relative;
+    left: 266px;
+    top: 30px;
+    width: 300px;
+}
+
+/* blocos de informações */
+
+.info-complementares{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top:150px;
+    margin-left: 266px;
+    max-width: 1920px;
+}
+
+.block-dado-pessoais{
+    width: 930px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: #0367A6;
+}
 
 
