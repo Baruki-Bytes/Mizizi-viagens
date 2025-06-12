@@ -1,0 +1,28 @@
+:root {
+    --azul1: #B9E5ED;
+    --azul2: #4E8EA6;
+    --azul2_5: #3c7597;
+    --azul2_transparente: #4e8fa6ac;
+    --azul3: #0a2861;
+    --azul4: #0367A6;
+    --azul5: #67bce6;
+    --azul6: #000b1f;
+    --cinza1: #5b719c;
+    --cinza2: #414f6d65;
+    --cinza3: #2a3f6d79;
+    --fundo: #E6FFFF;
+    --branco: #eafcff;
+    --verde: #43AD7C;
+    --semibold: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}

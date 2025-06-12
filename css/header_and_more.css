@@ -1,0 +1,137 @@
+body {
+  background-color: var(--fundo);
+}
+
+a {
+  text-decoration-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--azul1);
+  height: 128px;
+  padding: 10px 40px;
+}
+.logo {
+  height: 97px;
+  width: 228px;
+  margin-left: 80px;
+}
+
+.right,
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  height: 32px;
+  width: 310px;
+  background-color: var(--fundo);
+  border: 2px solid var(--azul2);
+  border-radius: 20px;
+}
+
+.search span {
+  font-style: italic;
+  user-select: none;
+  color: var(--azul2_5);
+  font-family: "Kameron", serif;
+  font-weight: var(--semibold);
+  margin: 10px;
+}
+
+#search-input {
+  background-color: transparent;
+  border: none;
+  height: 32px;
+  width: 240px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  border-radius: 35%;
+  position: relative;
+  left: -10px;
+}
+#search-input:focus {
+  outline: none;
+}
+#search-input::placeholder {
+  font-family: "Kameron", serif;
+  color: var(--azul2_5);
+  font-size: 1.2rem;
+  user-select: none;
+  font-weight: 600;
+}
+
+/* icons */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  height: 50px;
+  width: 100px;
+  margin-right: 170px;
+  gap: 30px;
+  user-select: none;
+}
+
+#lupa {
+  font-size: 25px;
+  color: var(--azul2_5);
+  user-select: none;
+  right: 45px;
+  position: relative;
+  transition: right 0.3s ease;
+}
+
+#iconsH {
+  font-size: 35px;
+  color: var(--azul2_5);
+  user-select: none;
+}
+
+.search:focus-within #lupa {
+  right: 5px;
+}
+
+.search:has(#search-input:not(:placeholder-shown)) #lupa {
+  right: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azul2);
+  height: 80px;
+  padding: 10px 20px;
+  user-select: none;
+}
+
+.icones-navbar {
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 1150px;
+}
+
+.icones-nav {
+  transition: transform 0.3s ease;
+}
+
+.icones-nav:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
