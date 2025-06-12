@@ -22,7 +22,7 @@
 
 body{
     overflow-x: hidden;
-    height: 5000px;
+    height: 3000px;
 }
 
 
@@ -319,8 +319,6 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  width: 100%;
-  max-width: 400px;
   margin: 8px 0;
   transition: all 0.3s ease;
 }
@@ -376,6 +374,7 @@ input {
     gap: 20px;
     position: relative;
     top:150px;
+    justify-items:center;
     margin-left: 266px;
     max-width: 1920px;
 }
@@ -384,7 +383,185 @@ input {
     width: 930px;
     height: 800px;
     border-radius: 10px;
-    background-color: #0367A6;
+    background-color: #67bce6;
+}
+
+#dados-info{
+    padding: 20px;
+    color: #033d5a;
 }
 
 
+#dados-voo{
+    padding: 20px;
+    color: #21526b;
+}
+
+/* input's */
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.text-box-real{
+    display: flex;
+    flex-direction: column;
+}
+
+#text-input{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eaf4fa;
+}
+
+#input-style{
+    background-color: #67bce6;
+    outline: 2px solid #3697ff;
+    width: 600px;
+}
+
+#input-style-limitar{
+    background-color: #67bce6;
+    outline: 2px solid #3697ff;
+    width: 300px;
+}
+
+#input-style-arrumar{
+    background-color: #67bce6;
+    outline: 2px solid #3697ff;
+}
+
+.text-box-real-arrumar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 120px;
+}
+
+.style-text-box-2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    bottom: 107px;
+    left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eaf4fa;
+}
+
+#setinha-baixo{
+    position: relative;
+    bottom: 42px;
+    left: 100px;
+    font-size: 30px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    color: #eaf4fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* btn */
+
+.btn-confir{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    left: 250px;
+    width: 300px;
+}
+
+.style-btn-conf{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #3697ff;
+    background-color: rgb(145, 238, 145);
+    font-size: 15px;
+    color:#0a2861;
+    font-weight: bold;
+}
+
+.style-btn-conf:hover{
+    transform: scale(1.09);
+    filter: brightness(1.1);
+    transition: 300ms ease;
+}
+
+#alter-red{
+    background-color: rgb(248, 97, 97);
+    color:#0a2861;
+}
+
+/* dados voo */
+
+.input-voos{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.text-input-voo{
+    display: flex;
+    flex-direction: column;
+}
+
+#input-style-voo{
+    width: 90px;
+    background-color: #67bce6;
+    outline: 2px solid #3697ff;
+}
+
+
+/* add persil */
+
+.add-perfil{
+    height: 80px;
+    width: 930px;
+    background-color: #3697ff;
+    position: relative;
+    top: 170px;
+    left: 265px;
+    border-radius: 10px;
+}
+
+.pagamento{
+    width: 500px;
+    height: 290px;
+    background-color: #3697ff;
+    border-radius: 10px;
+    position: relative;
+    left: 1217px;
+    bottom: 120px;
+}
+
+/* planos */
+
+.planos{
+    height: 400px;
+    width: 930px;
+    background-color: #3697ff;
+    border-radius: 10px;
+    position: relative;
+    left: 260px;
+}
+
+.text-plano{
+    position: relative;
+    left: 260px;
+}
+
+.rodape{
+    height: 500px;
+    width: 100%;
+    background-color: #000b1f;
+    margin-top: 300px;
+}
