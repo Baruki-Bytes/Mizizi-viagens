@@ -1,7 +1,11 @@
 body {
   background-color: var(--fundo);
+  overflow-x: hidden;
 }
-
+.hamburger a{
+  text-decoration: none;  
+  color: var(--azul1);
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -110,6 +114,7 @@ body {
   cursor: pointer;
   height: 55px;
   display: none;
+  gap: 2rem;
 }
 
 .search:focus-within #lupa {
@@ -148,24 +153,6 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
-  .icones-navbar, #iconsH {
-    display: none;
-}
-.hamburger{
-  display: flex;
-}
-.header{
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  width: 100vw;
-  }
-  .search, .logo{
-    margin-left: 50%;
-    transform: translate(-50%);
-  }
-}
 
 .footer{
   margin-top: 4rem;
@@ -215,6 +202,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: left;
+  margin-right: 10rem;
 }
 
 .container_footer2{
@@ -251,4 +239,101 @@ body {
 ul{
   padding-left: 2rem;  
   list-style-type: disc;  
+}
+
+.logo_mobile{
+  display: none;
+  width: 120px;
+  height: 120px;
+}
+
+.icons_mobile {
+  background-color: var(--azul2);
+  color: var(--azul1);
+  transform: scale(1.05);
+}
+  .container_mobileft{
+    display: flex;
+    align-items: last baseline;
+}
+@media (max-width: 500px) {
+  .icones-navbar, #iconsH, .logo {
+    display: none;
+}
+.hamburger, .logo_mobile{
+  display: flex;
+}
+.logo_mobile{
+  transform: translate(-30%);
+}
+.header{
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  }
+  .search{
+    margin-left: 50%;
+    transform: translate(-130%);
+  }
+}
+
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container_footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 1rem;
+  }
+    .container_footer2 {
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 9rem;
+    justify-content: center;
+  }
+.localizacao {
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+
+
+  .direitos ul {
+    list-style-type: disc;
+    padding-left: -1.5rem;
+    margin-top: -1rem;
+    text-align: left;
+    display: inline-block;
+
+  }
+
+  .container_mobileft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .apps, .redes {
+    align-self: center;
+    margin-left: 50%;
+    margin-right: 110%;
+  }
 }
