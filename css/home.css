@@ -324,12 +324,17 @@ html, body {
   .banner{
     width: 96%;
   }
-
+  .mobileret{
+    display: none;
+  }
   .destaques {
     flex-direction: column;
     display: flex;
     width: 100%;
     margin: 0;
+  }
+  .banner_moba{
+    border-radius: 5%;
   }
 
   .destaque {
