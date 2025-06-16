@@ -13,6 +13,7 @@
     --fundo: #E6FFFF;
     --branco: #eafcff;
     --verde: #43AD7C;
+    --verde2:rgb(47, 190, 94);
     --semibold: 600;
 }
 
@@ -25,4 +26,5 @@
 }
 a {
     text-decoration: none;
+    color: inherit; 
 }

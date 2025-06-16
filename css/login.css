@@ -1,0 +1,378 @@
+body {
+  display: flex;
+  box-sizing: content-box;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+.background img {
+  position: fixed;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+.register_box {
+  position: absolute;
+  height: 35rem;
+  width: 60rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--azul2_transparente);
+  border-radius: 3%;
+  border: 3px solid var(--azul3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.registro_manual {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registro_rapido {
+  height: 100%;
+  width: 20rem;
+  background-color: var(--azul1);
+  border-radius: 10px;
+  border-left: 3px solid var(--azul3);
+  border-bottom: 3px solid var(--azul3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: initial;
+}
+
+.caixa {
+  height: 3.4rem;
+  width: 18rem;
+  border-radius: 11rem;
+  border: 2px solid var(--azul3);
+  display: flex;
+}
+
+#caixa1,
+#caixa2 {
+  background-color: transparent;
+  text-align: center;
+  font-size: large;
+  color: var(--azul1);
+  transition: border 0.7s ease-out;
+}
+
+#caixa1::placeholder,
+#caixa2::placeholder {
+  font-family: "Kameron", serif;
+  color: var(--azul3);
+  font-size: 1.2rem;
+  user-select: none;
+  font-style: italic;
+}
+
+#caixa1:focus,
+#caixa2:focus {
+  outline: none;
+  border: 2px solid var(--azul1);
+}
+
+#caixa1 {
+  margin-bottom: 1rem;
+}
+
+#testinho,
+#testinho2 {
+  font-size: 15px;
+  color: var(--branco);
+  font-family: "Kameron", serif;
+  font-weight: var(--semibold);
+  margin-top: 5px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+#testinho:hover,
+#testinho2:hover {
+  transform: scale(1.2);
+}
+
+#testinho {
+  margin-top: 15px;
+}
+
+#testinho2 {
+  margin-bottom: 15px;
+}
+
+.caixa_aceitar {
+  height: 4rem;
+  width: 15rem;
+  border-radius: 20px;
+  background-color: var(--verde);
+  border: var(--azul3) solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.4s ease-in-out;
+}
+
+.caixa_aceitar:hover {
+  background-color: var(--verde2);
+  transform: scale(1.1);
+}
+
+.caixa_aceitar p {
+  font-size: 2rem;
+  color: var(--branco);
+  font-family: "Kameron", serif;
+  font-weight: var(--semibold);
+  letter-spacing: 1.5px;
+}
+
+#iconsH {
+  position: absolute;
+  font-size: 60px;
+  color: var(--azul3);
+  user-select: none;
+}
+
+.login {
+  margin-bottom: 2rem;
+}
+
+#mizizi {
+  margin-top: 30px;
+  font-size: 15px;
+  color: var(--branco);
+  font-family: "Kameron", serif;
+  font-weight: var(--semibold);
+}
+
+#mizizi,
+#testinho,
+#testinho2,
+.caixa_aceitar p,
+#login {
+  user-select: none;
+}
+
+.caixa_login {
+  height: 59px;
+  width: 231px;
+  border-radius: 20px;
+  border: var(--azul3) solid 2px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  user-select: none;
+}
+
+.caixa_login p {
+  font-size: 18px;
+  color: var(--azul3);
+  font-family: "Kameron", serif;
+  font-weight: var(--semibold);
+}
+
+#opcoes {
+  margin-top: -45px;
+  margin-bottom: 45px;
+}
+
+#iconni {
+  margin-left: -20px;
+  margin-right: 10px;
+  height: 3rem;
+}
+
+#iconng {
+  margin-left: -45px;
+  margin-right: 10px;
+  height: 2.7rem;
+}
+
+#iconnf {
+  margin-left: -25px;
+  margin-right: 10px;
+  height: 3rem;
+}
+
+.caixa_login:hover #iconng {
+  height: 3.3rem;
+}
+
+.caixa_login:hover #iconnf,
+.caixa_login:hover #iconni {
+  height: 3.5rem;
+}
+
+@media (max-width: 500px) {
+  .background img {
+    height: 100%;
+    width: auto;
+    margin-left: -27rem;
+  }
+
+  .register_box {
+    position: absolute;
+    height: 35rem;
+    width: 20rem;
+    top: 50%;
+  }
+
+  .registro_manual {
+    display: flex;
+    justify-content: start;
+    padding-top: 4rem;
+    align-items: center;
+  }
+
+  .registro_rapido {
+    display: none;
+  }
+
+  .caixa {  
+    margin-right: 10%;
+  }
+
+  #caixa1,
+  #caixa2 {
+    
+  }
+
+  #caixa1::placeholder,
+  #caixa2::placeholder {
+  }
+
+  #caixa1:focus,
+  #caixa2:focus {
+    outline: none;
+    border: 2px solid var(--azul1);
+  }
+
+  #caixa1 {
+    margin-bottom: 1rem;
+  }
+
+  #testinho,
+  #testinho2 {
+    margin-right: 7%;
+
+  }
+
+  #testinho:hover,
+  #testinho2:hover {
+    transform: scale(1.2);
+  }
+
+  #testinho {
+    margin-top: 15px;
+  }
+
+  #testinho2 {
+    margin-bottom: 15px;
+  }
+
+  .caixa_aceitar {
+    margin-right: 10%;
+
+  }
+
+  .caixa_aceitar:hover {
+    background-color: var(--verde2);
+    transform: scale(1.1);
+  }
+
+  .caixa_aceitar p {
+    font-size: 2rem;
+    color: var(--branco);
+    font-family: "Kameron", serif;
+    font-weight: var(--semibold);
+    letter-spacing: 1.5px;
+  }
+
+  #iconsH {
+    position: absolute;
+    font-size: 60px;
+    color: var(--azul3);
+    user-select: none;
+  }
+
+  .login {
+    display: none
+  }
+
+  #mizizi {
+    display: none
+  }
+
+  #mizizi,
+  #testinho,
+  #testinho2,
+  .caixa_aceitar p,
+  #login {
+    user-select: none;
+  }
+
+  .caixa_login {
+    height: 59px;
+    width: 231px;
+    border-radius: 20px;
+    border: var(--azul3) solid 2px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    user-select: none;
+  }
+
+  .caixa_login p {
+    font-size: 18px;
+    color: var(--azul3);
+    font-family: "Kameron", serif;
+    font-weight: var(--semibold);
+  }
+
+  #opcoes {
+    margin-top: -45px;
+    margin-bottom: 45px;
+  }
+
+  #iconni {
+    margin-left: -20px;
+    margin-right: 10px;
+    height: 3rem;
+  }
+
+  #iconng {
+    margin-left: -45px;
+    margin-right: 10px;
+    height: 2.7rem;
+  }
+
+  #iconnf {
+    margin-left: -25px;
+    margin-right: 10px;
+    height: 3rem;
+  }
+
+  .caixa_login:hover #iconng {
+    height: 3.3rem;
+  }
+
+  .caixa_login:hover #iconnf,
+  .caixa_login:hover #iconni {
+    height: 3.5rem;
+  }
+}

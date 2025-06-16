@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles_login.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/import.css">
 </head>
 <body>
+    <main>
+    <div class="background"><img src="./image/Background/praia_registro.png" alt=""></div>
     <div class="back-img"></div>
-    <div class="meio">
+    <div class="register_box">
         <a href="./index.html"><ion-icon name="arrow-back-circle-outline" id="iconsH"></ion-icon></a>
-        <div class="meiodomeio">
-            <div id="login">
+        <div class="registro_manual">
+            <div class="login">
             <img src="./image/botoes e etc/Login.png" alt="">
             </div>
-            <div class="caixa">
-            </div>
-            <div class="caixa2">
-            </div>
+            <input class="caixa" type="text" placeholder="Coloque seu login" id="caixa1">
+            <input class="caixa" type="text" placeholder="Coloque sua senha" id="caixa2">
             <div id="testinho">
                 <span>Esqueceu sua senha?</span>
             </div>
             <div id="testinho2">
-                <a href="register.html"><span>cria conta ai truta</span></a>
+                <a href="register.html"><span>criar conta</span></a>
             </div>
             <div class="caixa_aceitar">
                 <a href="pag de usuario/pag-usuario.html"><p>Confirmar</p></a>
@@ -32,10 +33,22 @@
                 <p>Mizizi Viagens</p>
             </div>
         </div>
-        <div class="direitadomeio"></div>
+        <div class="registro_rapido">
+            <img src="./image/botoes e etc/opcoes.png" alt="" id="opcoes" />
+            <div class="caixa_login">
+              <img src="./image/botoes e etc/icons-facebook.png" alt="" id="iconnf" />
+              <p>Conta Facebook</p>
+            </div>
+            <div class="caixa_login">
+              <img src="./image/botoes e etc/icons-google.png" alt="" id="iconng" />
+              <p>Conta Google</p>
+            </div>
+            <div class="caixa_login">
+              <img src="./image/botoes e etc/icons-instagram.png" alt="" id="iconni" />
+              <p>Conta Instagram</p></div>
     </div>
 
-
+</main>
 
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
