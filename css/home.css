@@ -42,12 +42,12 @@ html, body {
   height: 200px;
   width: 300px;
   border-radius: 10%;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.3s ease;
 }
 
 .destaque img:hover {
   box-sizing: content-box;
-  transform: scale(1.4) translateY(3rem);
+  transform: scale(1.05) translateY(.3rem);
   position: relative;
 }
 
