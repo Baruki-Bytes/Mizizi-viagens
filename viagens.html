@@ -4,62 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/header_and_more.css"/>
+    <link rel="stylesheet" href="css/import.css">
   </head>
   <body>
     <header class="header">
-      <div class="lula">
-        <div class="logo">
-          <img src="./image/logo.png" alt="Mizizi viagens Logo" />
-        </div>
+      <div class="left">
+          <div class="logo">
+              <img src="./image/botoes e etc/logo.png" alt="Mizizi viagens Logo">
+          </div>
+          <div class="logo_mobile">
+              <img src="./image/botoes e etc/logof.png" alt="Mizizi viagens Logo">
+          </div>
       </div>
-      <div class="bolso">
-        <div class="pesquisa">
-          <span>Buscar</span>
-          <ion-icon name="search-sharp" id="lupa"></ion-icon>
-        </div>
-        <div class="icones">
-          <a href="./login.html">
-            <ion-icon name="cart-outline" id="iconsH"></ion-icon
-          ></a>
-          <a href="./login.html">
-            <ion-icon name="person-circle-outline" id="iconsH"></ion-icon
-          ></a>
-        </div>
-      </div>
-    </header>
-    <navbar class="navbar">
-        <div class="icones-navbar">
-            <div class="icones-nav">
-                <a href="viagens.html"><img src="./image/botoes e etc/aviao.png" alt="Viagens"></a>
-            </div>
-            <div class="icones-nav">
-                <img src="image/botoes e etc/pacotes.png" alt="Pacotes">
-            </div>
-            <div class="icones-nav">
-                <img src="image/botoes e etc/roteiros.png" alt="Roteiros">
-            </div>
-            <div class="icones-nav">
-                <img src="image/botoes e etc/Tendência.png" alt="Tendência">
-            </div>
-            <div class="icones-nav">
-                <img src="image/botoes e etc/Hotéis.png" alt="Hotéis">
-            </div>
-            <div class="icones-nav">
-                <img src="image/botoes e etc/mapas.png" alt="Mapas">
-            </div>
-            <div class="icones-nav">
-                <img src="./image/botoes e etc/Imagens.png" alt="Imagens">
-            </div>
-            <div class="icones-nav">
-                <a href="wiki/wiki.html"><img src="./image/botoes e etc/Wiki.png" alt="Wiki"></a>
-            </div>
-            <div class="icones-nav">
-                <img src="./image/botoes e etc/Menu.png" alt="Menu">
-            </div>
-        </div>
-    </navbar>
+      <div class="right">
+          <div class="search">
+              <input type="text" placeholder="O que você procura?" id="search-input">
+              <ion-icon name="search-sharp" id="lupa"></ion-icon>
 
+          </div>
+          <div class="icons">
+              <a href="./login.html"> <ion-icon name="cart-outline" id="iconsH"></ion-icon></a>
+              <a href="./login.html"> <ion-icon name="person-circle-outline" id="iconsH"></ion-icon></a>
+          </div>
+      </div>
+  </header>
+  <navbar class="navbar">
+              <div class="hamburger">
+              <a href="./login.html"> <ion-icon name="cart-outline"></ion-icon></a>
+              <a href="./login.html"> <ion-icon name="person-circle-outline"></ion-icon></a>
+              <ion-icon name="menu-outline"></ion-icon>
+              </div>
+      <div class="icones-navbar">
+          <div class="icones-nav">
+              <a href="viagens.html"><img src="./image/botoes e etc/aviao.png" alt="Viagens"></a>
+          </div>
+          <div class="icones-nav">
+              <img src="image/botoes e etc/pacotes.png" alt="Pacotes">
+          </div>
+          <div class="icones-nav">
+              <img src="image/botoes e etc/roteiros.png" alt="Roteiros">
+          </div>
+          <div class="icones-nav">
+              <img src="image/botoes e etc/Tendência.png" alt="Tendência">
+          </div>
+          <div class="icones-nav">
+              <a href="hoteis/hoteis.html"><img src="image/botoes e etc/Hotéis.png" alt="Hotéis"></a>
+          </div>
+          <div class="icones-nav">
+              <img src="image/botoes e etc/mapas.png" alt="Mapas">
+          </div>
+          <div class="icones-nav">
+              <img src="./image/botoes e etc/Imagens.png" alt="Imagens">
+          </div>
+          <div class="icones-nav">
+              <a href="wiki/wiki.html"><img src="./image/botoes e etc/Wiki.png" alt="Wiki"></a>
+          </div>
+          <div class="icones-nav">
+              <img src="./image/botoes e etc/Menu.png" alt="Menu">
+          </div>
+
+      </div>
+  </navbar>
     <div class="container" id="conteudo1">
         <img src="./image/botoes e etc/Viagens.png" alt="">
         <p>Confira as viagens mais inesquecíveis de nosso catalogo:</p>
