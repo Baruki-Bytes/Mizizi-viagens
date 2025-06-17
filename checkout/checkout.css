@@ -559,9 +559,77 @@ input::placeholder{
     left: 260px;
 }
 
-.rodape{
-    height: 500px;
-    width: 100%;
-    background-color: #000b1f;
-    margin-top: 300px;
+.text-complementar{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
+
+.qr-code{
+    position: relative;
+    left: 300px;
+    bottom: 150px;
+}
+
+.add-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a2861;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.add-adu{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-icon{
+    font-size: 40px;
+}
+
+.subtext-pag, .text-paga{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: #0a2861;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.bottom-pag{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#verde, #vermelho{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #0a2861;
+    background-color: rgb(139, 236, 126);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#vermelho{
+    background-color: rgb(212, 94, 94);
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartaogap{
+    margin-left: 20px;
+}
+

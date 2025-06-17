@@ -5,40 +5,79 @@
     <meta name="viewport" content="width=1920, initial-scale=1.0">
     <title>Seu checkout</title>
     <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="../css/import.css">
+    <link rel="stylesheet" href="../css/header_and_more.css">
 </head>
 <body>
-    <header class="header">
-        <div class="lula">
+     <header class="header">
+        <div class="left">
             <div class="logo">
-                <a href="../index.html">
-                <img src="../image/logo.png" alt="Mizizi viagens Logo">
-                </a>
+                <img src="../image/botoes e etc/logo.png" alt="Mizizi viagens Logo">
             </div>
-          </div>
-          <div class="bolso">
-            <div class="pesquisa">
-                <span>Buscar</span>
+            <div class="logo_mobile">
+                <img src="../image/botoes e etc/logof.png" alt="Mizizi viagens Logo">
+            </div>
+        </div>
+        <div class="right">
+            <div class="search">
+                <input type="text" placeholder="O que você procura?" id="search-input">
                 <ion-icon name="search-sharp" id="lupa"></ion-icon>
 
-              </div>
-            <div class="icones">
-                <a href="./login.html"> <ion-icon name="cart-outline"  id="iconsH"></ion-icon></a>
+            </div>
+            <div class="icons">
+                <a href="./login.html"> <ion-icon name="cart-outline" id="iconsH"></ion-icon></a>
                 <a href="./login.html"> <ion-icon name="person-circle-outline" id="iconsH"></ion-icon></a>
             </div>
-
-          </div>
+        </div>
     </header>
+    <navbar class="navbar">
+                <div class="hamburger">
+                <a href="./login.html"> <ion-icon name="cart-outline"></ion-icon></a>
+                <a href="./login.html"> <ion-icon name="person-circle-outline"></ion-icon></a>
+                <ion-icon name="menu-outline"></ion-icon>
+                </div>
+        <div class="icones-navbar">
+            <div class="icones-nav">
+                <a href="viagens.html"><img src="../image/botoes e etc/aviao.png" alt="Viagens"></a>
+            </div>
+            <div class="icones-nav">
+                <img src="../image/botoes e etc/pacotes.png" alt="Pacotes">
+            </div>
+            <div class="icones-nav">
+                <img src="../image/botoes e etc/roteiros.png" alt="Roteiros">
+            </div>
+            <div class="icones-nav">
+                <img src="../image/botoes e etc/Tendência.png" alt="Tendência">
+            </div>
+            <div class="icones-nav">
+                <a href="hoteis/hoteis.html"><img src="../image/botoes e etc/Hotéis.png" alt="Hotéis"></a>
+            </div>
+            <div class="icones-nav">
+                <img src="../image/botoes e etc/mapas.png" alt="Mapas">
+            </div>
+            <div class="icones-nav">
+                <img src="../image/botoes e etc/Imagens.png" alt="Imagens">
+            </div>
+            <div class="icones-nav">
+                <a href="wiki/wiki.html"><img src="../image/botoes e etc/wiki-icon.png" alt="Wiki"></a>
+            </div>
+            <div class="icones-nav">
+                <img src="../image/botoes e etc/Menu.png" alt="Menu">
+            </div>
+
+        </div>
+    </navbar>
 
     <section class="conteiner-block">
 
         <div class="text-check">
-            <h2> Bahia - Checkout</h2>
-            <img src="../image/checkout/checklist.png" height="25px" alt="icon carrinho">
+            <h2>Guarani - Checkout</h2>
+            <img src="../image/botoes e etc/checklist.png" height="25px" alt="icon carrinho">
         </div>
 
         <div class="img-steam">
             <div>
-                <img src="../image/bg/Página de login.png" height="600px" id="banner-steam">
+                <img src="../image/produtos/aldeia-guarani.jpg" height="600px" id="banner-steam">
             </div>
 
             <div class="mini-banner">
@@ -46,23 +85,23 @@
                     <ion-icon name="chevron-back-outline"></ion-icon>
                 </div>
                 <div class="sentido-mini-banner">
-                    <img src="../image/bg/Página de login.png" height="100px" id="mini-banner-img" alt="">
+                    <img src="../image/produtos/aldeia-guarani.jpg" height="100px" id="mini-banner-img" alt="">
                 </div>
 
                 <div class="sentido-mini-banner">
-                    <img src="../image/bg/Página de login.png" height="100px" id="mini-banner-img" alt="">
+                    <img src="../image/produtos/aldeia-guarani.jpg" height="100px" id="mini-banner-img" alt="">
                 </div>
 
                 <div class="sentido-mini-banner">
-                    <img src="../image/bg/Página de login.png" height="100px"  id="mini-banner-img" alt="">
+                    <img src="../image/produtos/aldeia-guarani.jpg" height="100px"  id="mini-banner-img" alt="">
                 </div>
 
                 <div class="sentido-mini-banner">
-                    <img src="../image/bg/Página de login.png" height="100px" id="mini-banner-img" alt="">
+                    <img src="../image/produtos/aldeia-guarani.jpg" height="100px" id="mini-banner-img" alt="">
                 </div>
 
                 <div class="sentido-mini-banner">
-                    <img src="../image/bg/Página de login.png" height="100px" id="mini-banner-img" alt="">
+                    <img src="../image/produtos/aldeia-guarani.jpg" height="100px" id="mini-banner-img" alt="">
                 </div>
 
                 <div class="icon-seta" id="seta2">
@@ -93,12 +132,12 @@
 
                 <div class="seus-destino">
                     <span id="d1">São paulo</span>
-                    <span id="d2">Bahia</span>
+                    <span id="d2">Guarani</span>
                 </div>
 
                 <h3 class="text-viagens" id="Companhia">Companhia Aérea:</h3>
                 <div class="compainha-icon">
-                    <img src="../image/airbus-icon.png" id="arrumar-png">
+                    <img src="../image/botoes e etc/airbus-icon.png" id="arrumar-png">
                 </div>
 
                 <h3 class="text-viagens" id="Data">Data do voô:</h3>
@@ -244,12 +283,12 @@
                             </div>
 
                             <div class="b2b">
-                                <span id="perso-b2b">Empresa:</span>
+                                <h3 id="perso-b2b">Empresa:</h3>
                                 <span id="airbus">AIRBUS</span>
                             </div>
 
                             <div class="hora">
-                                <span id="horario">Horario:</span>
+                                <h3 id="horario">Horario:</h3>
                                 <span id="entrada">14:40h - Embarque</span>
                                 <span id="saida">15:30h - Decolagem</span>
                             </div>
@@ -261,12 +300,12 @@
 
                             <div class="id's">
                                 <h3>ID da Viagem:</h3>
-                                <span id="perso-id">2938290382093233249834934873483498326439672736298367298372647236438470219361234-0002123</span>
+                                <span id="perso-id">293829038209323324983493<br>487348349832643967273629<br>836729837264723643847021<br>9361234-0002123</span>
                             </div>
 
                             <div class="qr-code">
                                 <h3>QR Code</h3>
-                                <img src="../image/qrcode.png">
+                                <img src="../image/botoes e etc/qrcode.png">
                             </div>
                         </div>
 
@@ -276,11 +315,30 @@
             <section>
 
                 <div class="add-perfil">
-
+                    <div class="add-adu">
+                        <span>Adicionar perfil - Adulto</span>
+                        <ion-icon name="add-circle-outline" id="add-icon"></ion-icon>
+                    </div>
                 </div>
 
                 <div class="pagamento">
+                    <div class="text-paga">
+                        <span>Total</span>
+                    </div>
 
+                    <div class="subtext-pag">
+                        <span>Passagem única: R$600,00 </span>
+                        <span>Taxa adicional: R$70,00 </span>
+                        <span>-----------------------</span>
+                        <span>Pacote 4 Estrelas: R$70,00 </span>
+                        <span>HOTEL/ estadia: R$550,00 </span>
+                        <span>Cupom de desconto: R$-70,00 </span>
+                    </div>
+
+                    <div class="bottom-pag">
+                        <button id="verde">Pagamento</button>
+                        <button id="vermelho">Cancelar</button>
+                    </div>
                 </div>
 
             </section>
@@ -288,15 +346,58 @@
             <section>
                 <h2 class="text-plano">Quer dar um up na sua viagem??? Conheça os nossos pacotes</h2>
                 <div class="planos">
-
+                    <div class="fts-poggers">
+                        <img src="../image/botoes e etc/plano_bronze.png" width="200px">
+                        <img src="../image/botoes e etc/plano_ouro.png" width="225px" id="cartaogap">
+                        <img src="../image/botoes e etc/plano_prata_1.png" width="200px" id="cartaogap">
+                    </div>
                 </div>
             </section>
 
             <!-- footer -->
 
-            <footer>
-                <div class="rodape"></div>
-            </footer>
+            <footer class="footer">
+        <div class="container_footer">
+            <div class="container_mobileft">
+            <div class="contato">
+                <h2>contatos:</h2>
+                    <p>telefone: 12 98136-9953<br>
+                    email: miziziviagns@gmail.com </p>
+            </div>
+            <div class="direitos">
+                <h3>Direito Autorais:</h3>
+                <ul>
+                    <br>
+                    <li>Matheus Barros;</li>
+                    <li>Henri Baruki;</li>
+                    <li>Murilo Alves;</li>
+                    <li>Felipe Farias;</li>
+                    <li>Luiz henrique.</li>
+                </ul>
+            </div>
+            </div>
+            <div class="localizacao">
+                A MIZIZI está presente em Brasil, Argentina, Bolívia, Chile, Colombia, Costa Rica, Equador, El
+                Salvador, Guatemala, Honduras, México, Nicarágua, Panamá, Paraguai, Peru, Porto Rico, República Dominicana, Estados
+                Unidos e Uruguai. <br>
+                miziziviagens.com - Ministério do Turismo - Cadastur 01.010101010.010101-0/01.010101.10.0101-1 Copyright 1999-2025,
+                miziziviagens.com Ltda. Todos os direitos reservados.<br>
+                Rua Arlindo Nogueira, 10101, 10º andar, Centrom Centro Industrial e Empresarial, Teresina, Plauí, CEP 64000-290
+            </div>
+        </div>
+        <div class="container_footer2">
+        <div class="apps"> 
+            <img src="../image/botoes e etc/gp_card.png" alt="">
+            <img src="../image/botoes e etc/ap_card.png" alt="">
+        </div>
+        <div class="redes">
+            <img src="../image/botoes e etc/icons-facebook.png" alt="">
+            <img src="../image/botoes e etc/icons-instagram.png" alt="">
+            <img src="../image/botoes e etc/icons-whatsapp.png" alt="">
+            <img src="../image/botoes e etc/icons-linkedin.png" alt="">
+        </div>
+        </div>
+    </footer>
 
             <!-- JS -->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
