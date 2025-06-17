@@ -130,6 +130,7 @@
 
   .naosei{
     display: flex;
+    gap: 30px;
     padding-inline: 107px;
   }
 
